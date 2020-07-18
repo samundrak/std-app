@@ -89,7 +89,7 @@
     "moment": "2.16.0",
     "mongoose": "4.6.4",
     "mongoose-paginate": "5.0.3",
-    "morgan": "1.7.0",
+    "morgan": "1.9.1",
     "multer": "^1.3.1",
     "multer-s3": "^2.7.0",
     "nodemon": "1.17.4",
