@@ -202,7 +202,7 @@
     "less-loader": "^4.1.0",
     "mocha": "2.4.5",
     "nock": "8.0.0",
-    "node-sass": "4.5.3",
+    "node-sass": "4.13.1",
     "npm-run-all": "1.8.0",
     "open": "0.0.5",
     "prettier-eslint": "8.8.1",
