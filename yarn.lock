@@ -1018,12 +1018,12 @@ aws4@^1.2.1, aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
 
-axios@0.15.2:
-  version "0.15.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.15.2.tgz#496f50980b2ce1ad2e195af93c2d03b4d035e90d"
-  integrity sha1-SW9QmAss4a0uGVr5PC0DtNA16Q0=
+axios@0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
   dependencies:
-    follow-redirects "0.0.7"
+    follow-redirects "^1.10.0"
 
 axobject-query@^0.1.0:
   version "0.1.0"
@@ -4144,7 +4144,7 @@ debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.3, debug@^2.6.
   dependencies:
     ms "2.0.0"
 
-debug@3.1.0, debug@=3.1.0, debug@~3.1.0:
+debug@3.1.0, debug@~3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
@@ -5984,20 +5984,10 @@ fn-name@~1.0.1:
   resolved "https://registry.yarnpkg.com/fn-name/-/fn-name-1.0.1.tgz#de8d8a15388b33cbf2145782171f73770c6030f0"
   integrity sha1-3o2KFTiLM8vyFFeCFx9zdwxgMPA=
 
-follow-redirects@0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-0.0.7.tgz#34b90bab2a911aa347571da90f22bd36ecd8a919"
-  integrity sha1-NLkLqyqRGqNHVx2pDyK9NuzYqRk=
-  dependencies:
-    debug "^2.2.0"
-    stream-consume "^0.1.0"
-
-follow-redirects@^1.0.0:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.6.1.tgz#514973c44b5757368bad8bddfe52f81f015c94cb"
-  integrity sha512-t2JCjbzxQpWvbhts3l6SH1DKzSrx8a+SsaVf4h6bG4kOXUuPYS/kg2Lr4gQSb7eemaHqJkOThF1BGyjlUkO1GQ==
-  dependencies:
-    debug "=3.1.0"
+follow-redirects@^1.0.0, follow-redirects@^1.10.0:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
+  integrity sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
 
 for-in@^0.1.3:
   version "0.1.8"
@@ -14270,7 +14260,7 @@ shellwords@^0.1.1:
   resolved "https://registry.yarnpkg.com/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
   integrity sha512-vFwSUfQvqybiICwZY5+DAWIPLKsWO31Q91JSKl3UYv+K5c2QRPzn0qzec6QPu1Qc9eHYItiP3NdJqNVqetYAww==
 
-shortid@^2.2.14:
+shortid@2.2.14:
   version "2.2.14"
   resolved "https://registry.yarnpkg.com/shortid/-/shortid-2.2.14.tgz#80db6aafcbc3e3a46850b3c88d39e051b84c8d18"
   integrity sha512-4UnZgr9gDdA1kaKj/38IiudfC3KHKhDc1zi/HSxd9FQDR0VLwH3/y79tZJLsVYPsJgIjeHjqIWaWVRJUj9qZOQ==
@@ -14842,11 +14832,6 @@ stream-combiner@~0.0.4:
   integrity sha1-TV5DPBhSYd3mI8o/RMWGvPXErRQ=
   dependencies:
     duplexer "~0.1.1"
-
-stream-consume@^0.1.0:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/stream-consume/-/stream-consume-0.1.1.tgz#d3bdb598c2bd0ae82b8cac7ac50b1107a7996c48"
-  integrity sha512-tNa3hzgkjEP7XbCkbRXe1jpg+ievoa0O4SCFlMOYEscGSS4JJsckGL8swUyAa/ApGU3Ae4t6Honor4HhL+tRyg==
 
 stream-each@^1.1.0:
   version "1.2.3"
@@ -17270,6 +17255,23 @@ yargs@11.0.0:
     y18n "^3.2.1"
     yargs-parser "^9.0.2"
 
+yargs@13.2.1:
+  version "13.2.1"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-13.2.1.tgz#c8888bcf24424bd4e5a834348366f6fcc37bb8d9"
+  integrity sha512-HgY0xHGmPPakg6kEDufqxZuXVtvPZcipORC8O7S44iEnwsUmP+qnhReHc6d1dyeIZkrPmYFblh45Z2oeDn++fQ==
+  dependencies:
+    cliui "^4.0.0"
+    find-up "^3.0.0"
+    get-caller-file "^2.0.1"
+    os-locale "^3.1.0"
+    require-directory "^2.1.1"
+    require-main-filename "^2.0.0"
+    set-blocking "^2.0.0"
+    string-width "^3.0.0"
+    which-module "^2.0.0"
+    y18n "^4.0.0"
+    yargs-parser "^13.0.0"
+
 yargs@3.29.0:
   version "3.29.0"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-3.29.0.tgz#1aab9660eae79d8b8f675bcaeeab6ee34c2cf69c"
@@ -17319,23 +17321,6 @@ yargs@^10.0.3:
     which-module "^2.0.0"
     y18n "^3.2.1"
     yargs-parser "^8.1.0"
-
-yargs@^13.2.1:
-  version "13.2.1"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-13.2.1.tgz#c8888bcf24424bd4e5a834348366f6fcc37bb8d9"
-  integrity sha512-HgY0xHGmPPakg6kEDufqxZuXVtvPZcipORC8O7S44iEnwsUmP+qnhReHc6d1dyeIZkrPmYFblh45Z2oeDn++fQ==
-  dependencies:
-    cliui "^4.0.0"
-    find-up "^3.0.0"
-    get-caller-file "^2.0.1"
-    os-locale "^3.1.0"
-    require-directory "^2.1.1"
-    require-main-filename "^2.0.0"
-    set-blocking "^2.0.0"
-    string-width "^3.0.0"
-    which-module "^2.0.0"
-    y18n "^4.0.0"
-    yargs-parser "^13.0.0"
 
 yargs@^4.0.0:
   version "4.8.1"

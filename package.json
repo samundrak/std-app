@@ -35,7 +35,7 @@
     "antd": "3.9.1",
     "auto-bind": "1.1.0",
     "aws-sdk": "^2.320.0",
-    "axios": "0.15.2",
+    "axios": "0.21.1",
     "babel-eslint": "7.2.3",
     "babel-plugin-add-module-exports": "0.2.1",
     "babel-plugin-dynamic-import-webpack": "1.0.2",
@@ -160,7 +160,7 @@
     "yup": "0.24.1"
   },
   "devDependencies": {
-    "axios": "0.15.2",
+    "axios": "0.21.1",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
     "babel-loader": "7.1.4",
