@@ -137,7 +137,7 @@
     "semantic-ui-css": "2.2.11",
     "semantic-ui-react": "0.71.3",
     "shortid": "2.2.14",
-    "socket.io": "2.0.3",
+    "socket.io": "2.4.0",
     "socket.io-client": "2.0.3",
     "socket.io-emitter": "3.0.1",
     "speedometer": "1.0.0",
