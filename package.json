@@ -123,7 +123,7 @@
     "react-toastify": "^4.2.0",
     "react-twitter-widgets": "1.7.1",
     "react-window": "^1.1.2",
-    "redis": "2.7.1",
+    "redis": "3.1.1",
     "redux": "4.0.0",
     "redux-form": "7.3.0",
     "redux-immutable-state-invariant": "2.1.0",
