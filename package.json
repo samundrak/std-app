@@ -34,7 +34,7 @@
     "@sentry/node": "^4.6.1",
     "antd": "3.9.1",
     "auto-bind": "1.1.0",
-    "aws-sdk": "^2.320.0",
+    "aws-sdk": "^2.814.0",
     "axios": "0.15.2",
     "babel-eslint": "7.2.3",
     "babel-plugin-add-module-exports": "0.2.1",
